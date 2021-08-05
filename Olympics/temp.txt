@@ -1,0 +1,1 @@
+<input type="number"  pattern="[0-9]{8}"max="99999999" value="<?php if(isset($_POST['Sponsorship_Amount'])) echo $_POST['Sponsorship_Amount'];  ?>" required name="Sponsorship_Amount" id="Sponsorship_Amount" class="form-control" placeholder="Sponsorship Amount">
